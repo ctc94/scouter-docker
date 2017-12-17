@@ -1,0 +1,38 @@
+20171217 05:09:31 Scouter Server Version 1.8.0 2017-11-04 03:22 GMT
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 1.8.0
+ 
+20171217 05:09:31 Load Account Group File
+20171217 05:09:32 Load Account File
+20171217 05:09:32 Load Account Group File
+20171217 05:09:32 udp listen 0.0.0.0:6100
+20171217 05:09:32 	udp_host=0.0.0.0
+20171217 05:09:32 	udp_port=6100
+20171217 05:09:32 	udp_buffer=65535
+20171217 05:09:32 	udp_so_rcvbuf=4194304
+20171217 05:09:32 Load Account File
+20171217 05:09:32 	tcp_port=6100
+20171217 05:09:32 	cp_agent_so_timeout=60000
+20171217 05:09:32 	cp_client_so_timeout=8000
+20171217 05:09:36 [S215] Alert rule detected : ErrorRate.alert
+20171217 05:09:37 PLUG-IN : scouter.server.plugin.IAlert loaded #xpf3ahl
+20171217 05:09:37 PLUG-IN : scouter.server.plugin.ICounter loaded #xmo91mr
+20171217 05:09:37 PLUG-IN : scouter.server.plugin.IObject loaded #x1f57kmv
+20171217 05:09:37 PLUG-IN : scouter.server.plugin.IXLog loaded #x1ai0hto
+20171217 05:09:37 PLUG-IN : scouter.server.plugin.IXLog loaded #x16qt8f0
+20171217 05:09:37 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #x1kvhdbq
+20171217 05:09:37 PLUG-IN : scouter.server.plugin.ISummary loaded #xa9925m
+20171217 05:27:22 [S104] New OBJECT  objType=linux objHash=zb0vs75 objName=/ip-10-100-201-96 addr=127.0.0.1 1.8.0 2017-11-04 03:22 GMT alive 2017-12-17 05:27:22.096 {detected=linux}
+20171217 05:37:20 [S104] New OBJECT  objType=java objHash=zp8vbjr objName=/ip-11-0-0-72/WAS-01 addr=11.0.0.72 1.8.0 2017-11-04 03:22 GMT alive 2017-12-17 05:37:20.655 {detected=java,ADC=false}
+20171217 05:37:24 [S105] Update OBJECT  objType=tomcat objHash=zp8vbjr objName=/ip-11-0-0-72/WAS-01 addr=11.0.0.72 1.8.0 2017-11-04 03:22 GMT alive 2017-12-17 05:37:24.683 {detected=tomcat,ADC=false}
+20171217 05:37:36 [S104] New OBJECT  objType=reqproc objHash=x16labfp objName=/ip-11-0-0-72/WAS-01/http-nio-8090 addr=13.125.82.37 alive 2017-12-17 05:37:36.762
+20171217 05:38:27 [S145] GeoIP db file is not readable : /home/ec2-user/scouter/server/conf/GeoLiteCity.dat
+20171217 05:42:52 [S105] Update OBJECT  objType=java objHash=zp8vbjr objName=/ip-11-0-0-72/WAS-01 addr=13.125.82.37 1.8.0 2017-11-04 03:22 GMT alive 2017-12-17 05:42:52.507 {detected=java,ADC=false}
+20171217 05:42:54 [S105] Update OBJECT  objType=java objHash=zp8vbjr objName=/ip-11-0-0-72/WAS-01 addr=11.0.0.72 1.8.0 2017-11-04 03:22 GMT alive 2017-12-17 05:42:54.622 {detected=java,ADC=false}
+20171217 05:42:56 [S105] Update OBJECT  objType=tomcat objHash=zp8vbjr objName=/ip-11-0-0-72/WAS-01 addr=11.0.0.72 1.8.0 2017-11-04 03:22 GMT alive 2017-12-17 05:42:56.625 {detected=tomcat,ADC=false}
+20171217 05:44:43 [S104] New OBJECT  objType=linux objHash=x1ucfe1q objName=/agent-host addr=127.0.0.1 1.8.0 2017-11-04 03:22 GMT alive 2017-12-17 05:44:43.953 {detected=linux}
